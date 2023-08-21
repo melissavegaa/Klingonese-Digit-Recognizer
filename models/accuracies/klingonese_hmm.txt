@@ -1,0 +1,44 @@
+nr of files in test set: 43
+              precision    recall  f1-score   support
+
+         Hut       1.00      1.00      1.00         2
+        Soch       1.00      1.00      1.00         1
+       apple       1.00      1.00      1.00         3
+      banana       1.00      1.00      1.00         4
+         cha       0.33      0.50      0.40         2
+      chorgh       1.00      0.80      0.89         5
+         jav       1.00      1.00      1.00         1
+        kiwi       1.00      1.00      1.00         2
+        lime       1.00      1.00      1.00         1
+         loS       0.80      1.00      0.89         4
+      orange       1.00      1.00      1.00         1
+        pagh       0.67      0.67      0.67         3
+       peach       1.00      1.00      1.00         3
+   pineapple       1.00      1.00      1.00         8
+        vagh       1.00      0.33      0.50         6
+          wa       0.50      1.00      0.67         3
+         wej       1.00      1.00      1.00         1
+
+    accuracy                           0.86        50
+   macro avg       0.90      0.90      0.88        50
+weighted avg       0.91      0.86      0.86        50
+
+Confusion matrix (y-axis real label, x-axis predicted label):
+           orange  kiwi  peach  wa  chorgh  cha  apple  loS  Soch  Hut  lime  wej  vagh  banana  jav  pineapple  pagh
+orange          1     0      0   0       0    0      0    0     0    0     0    0     0       0    0          0     0
+kiwi            0     2      0   0       0    0      0    0     0    0     0    0     0       0    0          0     0
+peach           0     0      3   0       0    0      0    0     0    0     0    0     0       0    0          0     0
+wa              0     0      0   3       0    0      0    0     0    0     0    0     0       0    0          0     0
+chorgh          0     0      0   0       4    0      0    1     0    0     0    0     0       0    0          0     0
+cha             0     0      0   0       0    1      0    0     0    0     0    0     0       0    0          0     1
+apple           0     0      0   0       0    0      3    0     0    0     0    0     0       0    0          0     0
+loS             0     0      0   0       0    0      0    4     0    0     0    0     0       0    0          0     0
+Soch            0     0      0   0       0    0      0    0     1    0     0    0     0       0    0          0     0
+Hut             0     0      0   0       0    0      0    0     0    2     0    0     0       0    0          0     0
+lime            0     0      0   0       0    0      0    0     0    0     1    0     0       0    0          0     0
+wej             0     0      0   0       0    0      0    0     0    0     0    1     0       0    0          0     0
+vagh            0     0      0   2       0    2      0    0     0    0     0    0     2       0    0          0     0
+banana          0     0      0   0       0    0      0    0     0    0     0    0     0       4    0          0     0
+jav             0     0      0   0       0    0      0    0     0    0     0    0     0       0    1          0     0
+pineapple       0     0      0   0       0    0      0    0     0    0     0    0     0       0    0          8     0
+pagh            0     0      0   1       0    0      0    0     0    0     0    0     0       0    0          0     2

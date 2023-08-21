@@ -1,0 +1,24 @@
+nr of files in test set: 21
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00         3
+      banana       1.00      1.00      1.00         6
+        kiwi       1.00      1.00      1.00         1
+        lime       1.00      1.00      1.00         4
+      orange       1.00      1.00      1.00         2
+       peach       1.00      1.00      1.00         2
+   pineapple       1.00      1.00      1.00         3
+
+    accuracy                           1.00        21
+   macro avg       1.00      1.00      1.00        21
+weighted avg       1.00      1.00      1.00        21
+
+Confusion matrix (y-axis real label, x-axis predicted label):
+           apple  pineapple  peach  lime  kiwi  orange  banana
+apple          3          0      0     0     0       0       0
+pineapple      0          3      0     0     0       0       0
+peach          0          0      2     0     0       0       0
+lime           0          0      0     4     0       0       0
+kiwi           0          0      0     0     1       0       0
+orange         0          0      0     0     0       2       0
+banana         0          0      0     0     0       0       6
